@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+:root {
+  --navbar-color: #181616;
+}
+
+body {
+  margin: 0 0;
+}
+
+nav *:focus {
+  outline: none;
+  background-color: black;
+  color: #dedede;
+}
+
+nav a::selection, footer a::selection {
+  color: black;
+  background-color: white;
+}
