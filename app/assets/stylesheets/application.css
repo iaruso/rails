@@ -32,3 +32,7 @@ nav a::selection, footer a::selection {
   color: black;
   background-color: white;
 }
+
+body:nth-child(2){
+  margin-top: 2.4em;
+}

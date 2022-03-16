@@ -70,4 +70,6 @@ Rails.application.configure do
 
   # Allow hosting on *.repl.co hosts
   config.hosts << /.*\.repl.co/
+  config.action_mailer.default_url_options = { :host => "dev.rails.iaruso.repl.co" }
+  Rails.application.routes.default_url_options[:host] = "https://rails.iaruso.repl.co/"
 end
